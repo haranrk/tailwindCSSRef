@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <title>Variants</title>
+  </head>
+  <body>
+    <div class="flex gap-3 bg-gray-100 m-10">
+      <div class="mx-auto p-10">
+        <form>
+          <input
+            class="
+              border border-transparent
+              focus:outline-none
+              focus:ring-2
+              focus:ring-purple-600
+              focus:border-transparent
+              text-purple-600
+              p-3
+              rounded-xl
+            "
+          />
+          <button
+            class="
+              bg-purple-600
+              hover:bg-purple-700
+              focus:outline-none
+              focus:ring-2
+              focus:ring-purple-600
+              focus:ring-opacity-50
+              text-white
+              p-3
+              rounded-xl
+              ml-3
+            "
+          >
+            Sign up
+          </button>
+        </form>
+      </div>
+      <div class="m-auto p-10 bg-gray-500 group">
+        <div class="bg-gray-600 group-hover:bg-gray-900 text-white">
+          Group hover
+        </div>
+      </div>
+    </div>
+    <div class="m-auto p-10 bg-gray-500">
+      <div class="sm:bg-red-100 md:bg-red-300 lg:bg-red-500 xl:bg-red-700">
+        Responsive design
+      </div>
+    </div>
+  </body>
+</html>
