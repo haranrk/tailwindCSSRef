@@ -7,12 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        mycolor: colors.red,
-        mygreen: {
-          light: "#ff7ce5",
-          DEFAULT: "#ff49db",
-          dark: "#ff16d1",
-        },
+        // mycolor: colors.red,
+        // mygreen: {
+        //   light: "#ff7ce5",
+        //   DEFAULT: "#ff49db",
+        //   dark: "#ff16d1",
+        // },
       },
     },
   },

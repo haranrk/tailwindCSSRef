@@ -10,7 +10,7 @@
 
 @layer components {
   .flex-item {
-    @apply p-5 bg-mygreen-light text-white font-mono font-bold px-20 rounded-md shadow-md;
+    @apply p-5 bg-green-600 text-white font-mono font-bold px-20 rounded-md shadow-md;
   }
   .grid-item {
     @apply p-5 bg-blue-600 text-white text-center font-mono font-bold px-20 rounded-md shadow-md;
